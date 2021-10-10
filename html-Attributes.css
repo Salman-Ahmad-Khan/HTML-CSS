@@ -1,0 +1,20 @@
+table,th{
+   border-style:groove;
+   border-color:black;
+   border-top-color:rgb(0, 255, 21);
+   border-bottom-color:rgb(248, 36, 71);
+   border-left-color: rgb(68, 0, 255);
+   border-right-color: yellow;
+   border-collapse: collapse;
+   padding: 10px;
+   /* border: spacing 10px;; */
+   background-color: crimson;
+
+
+}
+.aytri{
+    color: white;
+}
+thead{
+    color: black;
+}

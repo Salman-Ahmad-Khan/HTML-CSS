@@ -1,0 +1,14 @@
+/* li[class]{
+    color:gold;
+    font-size: 100%;
+} */
+
+/* li[class="a"]{
+    color: hotpink;
+    
+} */
+
+li[class~="a"]{
+    color: hotpink;
+    
+}

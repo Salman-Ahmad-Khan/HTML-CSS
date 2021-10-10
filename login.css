@@ -1,0 +1,73 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css);
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #2c2c54;
+
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #000a14;
+    text-align: center;
+    border-radius:50px;
+}
+
+.box input[type="text"], .box input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid hotpink;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: darkslategrey;
+    border-radius: 24px;
+    transition: 0.25s;
+
+    
+}
+.box input[type="text"]:focus, .box input[type="password"]:focus{
+    width: 280px;
+    border-color: #0be881;
+    
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid hotpink;
+    padding: 14px 40px;
+    
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background: #fd0429;
+}
+.box i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+

@@ -1,0 +1,9 @@
+#heading{
+color: crimson;
+background-color: darkslategray;
+font-weight: bolder;
+}
+p#one{
+    background-color:red;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+table,tr,th,td{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing:10px;
+}
+th{
+    background-color: brown;
+}
+td{
+    background-color: cadetblue;
+}
+img{
+ max-width: 100%;
+}
+footer{
+    background: #73031b;
+    padding: 15px 0;
+    color: #a64a3a;
+    font-size: 85%;
+}

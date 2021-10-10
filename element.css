@@ -1,0 +1,43 @@
+h1{
+    color:hotpink;
+}
+p{
+    color: blue;
+}
+li{
+    list-style-type:square;
+
+
+    list-style-position:inside;
+font-variant:initial;
+
+    letter-spacing: 0vmax; line-height: 2vmin; color: mediumturquoise;
+}
+body{
+    color: olive;
+}
+em{
+    color: brown;
+}
+em.special{
+    color:red;
+    font-weight: bolder;
+}
+li em{
+    color:blue;
+}
+
+h1+p{
+    font-style: italic; font-size: 1vmax;
+}
+a:hover{
+    color: crimson;
+    text-decoration: darkgreen;
+}
+
+
+body h1+p .special{
+    color:yellow;
+    background-color: black;
+    padding: 1vmax;
+}

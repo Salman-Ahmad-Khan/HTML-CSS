@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+
+    <!-- adding css internally by using a style tag
+        <style>
+        tag_name1,tag_name2...{
+            property:value;
+        } -->
+    </style>) -->
+    <style>
+        p,h2{
+            color:rgb(14, 119, 238)
+        }
+    </style>
+
+    <!-- <link rel="stylesheet" href="Payment_form.css"> -->
+</head>
+<body>
+    <form action="">
+        <h1 style="color: red;font-style: oblique;" >Payment Form</h1>  <!--inline style(CSS):-<tagName style="property:value">-->
+        <h2>Contact Informaton</h2>
+        <hr>
+        <p>Name:* <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male* <input type="radio" name="gender" id="male" required> Female* <input type="radio" name="gender" id="female" required></p>
+        </fieldset>
+            <hr>
+            <p>Address: <textarea name="address" id="address" cols="10" rows="12" ></textarea></p>
+        
+            <hr>
+            <p>Email:* <input type="email" name="email" id="email" required></p>
+            <p>Pincode:* <input type="number" name="pincode" id="pincode" required></p>
+            <hr>
+            <h2>Payment Informatiom</h2>
+            <p>
+                Card Type:*
+                <select name="card type" id="card type" required>
+                    <option value="">--Select a Crad Type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Debit Card">Debit Card</option>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Master Card">Master Card</option>
+                    
+                </select>
+            </p>
+            <p>
+                Card Number:* <input type="number" name="card number" id="card number" required>
+            </p>
+            <hr>
+
+        
+        <p> Expiration Date:* <input type="date" name="exp_date" id="exp-date" required></p>
+        <hr>
+        <p>CVV:* <input type="password" name="cvv" id="cvv" required></p>
+        <hr>
+        <input type="submit" value="Save">
+        <input type="submit" value="Pay Now">
+
+    </form>
+</body>
+</html>

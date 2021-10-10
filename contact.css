@@ -1,0 +1,92 @@
+
+body{
+    color: rgb(198, 218, 198);
+}
+
+
+.main {
+
+    text-align: center;
+    border: hotpink;
+    border-radius: 5px;
+}
+
+.address {
+    text-align: left;
+    /* padding-right: 35px; */
+   
+}
+/* .text-box{
+    /* width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    /* padding: 8px 0; */
+    /* margin-bottom: 8px 0; */
+    /* border-bottom: 1px solid; */ 
+
+.box{
+    
+    border: radius 10px;
+    background: #000a14;
+}
+.box input[type="text"],.box input[type="email"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid hotpink;
+    padding: 10px 10px;
+    width: 200px;
+    outline: none;
+    color: darkslategrey;
+    border-radius: 24px;
+    transition: 0.25s;
+
+    
+}
+.box textarea{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid hotpink;
+    padding: 10px 10px;
+    width: 400px;
+    outline: none;
+    color: darkslategrey;
+    border-radius: 24px;
+    transition: 0.5s;
+
+    
+}
+.box input[type="text"]:focus, .box input[type="email"]:focus,.box textarea:focus{
+    width: 280px;
+    border-color: #0be881;
+    
+}
+
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgb(160, 4, 82);
+    padding: 10px 40px;
+    
+    outline: none;
+    color: rgb(240, 229, 229);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+
+.box input[type="submit"]:hover{
+    background: #fc037f;
+}
+
+
