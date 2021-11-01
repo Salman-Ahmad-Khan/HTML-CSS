@@ -1,0 +1,114 @@
+
+html
+{
+    font-size: 62.5%;
+}
+
+
+#head
+{
+    font-size: 4rem;
+    
+    color: red
+}
+
+
+.a
+{
+    
+    padding-left: 1rem;
+    margin: 1rem;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius:4rem;
+    width: 25rem;
+    height: 15rem;
+    box-sizing:content-box;
+   
+   background: url(images/pexels-sharon-mccutcheon-1209843.jpg);
+   float: left;
+}
+
+.b
+{
+    padding-left: 1rem;
+    margin: 1rem;
+     border-top-right-radius: 4rem;
+    border-bottom-left-radius:4rem;
+    width: 25rem;
+    height: 15rem;
+    box-sizing:content-box;
+   background: url(images/pursuit-wallpaper-1920x1080-63.jpg);
+   float: left;
+}
+.c
+{
+    padding-left: 1rem;
+    margin: 1rem;
+     border-top-right-radius: 4rem;
+    border-bottom-left-radius:4rem;
+    width: 25rem;
+    height: 15rem;
+    box-sizing:content-box;
+   background: url(images/aston-martin-dbs-superleggera-195.jpg);
+   float: left;
+}
+.d
+{
+    padding-left: 1rem;
+    margin: 1rem;
+     border-top-right-radius: 4rem;
+    border-bottom-left-radius:4rem;
+    width: 25rem;
+    height: 15rem;
+    box-sizing:content-box;
+   background:url(images/pacific-rim-uprising-179.jpg);
+   float: left;
+}
+h3 
+{
+    color: crimson;
+}
+
+.txt
+{
+    font-size:3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+ @media all and (max-width:519px) and (min-width:200px) {
+    html {
+        font-size: 40%;
+
+
+
+
+    }
+}
+/*
+@media all and (max-width:699px) and (min-width:520px) {
+    html {
+        font-size: 35%;
+
+
+
+
+    }
+} */
+
+/* @media (max-width:768px) {
+    html {
+       font-size: 45%;
+    }
+ } */
+
+
+  /* @media all {
+   html {
+      font-size: 35%;
+
+
+
+
+   }
+} */
